@@ -19,7 +19,7 @@ import { getLinkTarget } from '@/utils/link'
     <div flex>
       <a nav-link href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
       <span op-70>&nbsp;&nbsp;&copy;&nbsp;&nbsp;{{ new Date().getFullYear() }}&nbsp;&nbsp;{{ siteConfig.author
-      }}.</span>
+      }}. Powered by <a nav-link href="https://astro.build" target="_blank">astro</a> and the <a nav-link href="https://github.com/kevinwong865/astro-theme-vitesse" target="_blank">Vitesse</a> theme. </span>
     </div>
   </footer>
 </template>

@@ -3,9 +3,10 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import UnoCSS from 'unocss/astro'
 import vue from '@astrojs/vue'
+import tailwind from '@astrojs/tailwind'
 
 export default defineConfig({
-  site: 'https://astro-theme-vitesse.netlify.app/',
+  site: 'https://localhost/',
   server: {
     port: 1977,
   },

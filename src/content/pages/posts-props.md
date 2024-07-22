@@ -16,6 +16,9 @@ Props in blog:
 | draft       | No   | The current article is in draft status.    |
 | tag         | No   | Custom tag text for the article.           |
 | video       | No   | The article contains a video.              |
+| location    | No   | The related location ot the article.       |
+| venue       | No   | The related venue of the article.          |
+| collection  | No   | The collection for next/prev article links |
 
 Props in pages:
 

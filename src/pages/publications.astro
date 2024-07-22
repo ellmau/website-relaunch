@@ -1,0 +1,14 @@
+---
+import '@/styles/publications.css'
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import siteConfig from '@/site-config'
+import Pubs from '../assets/publications.html'
+---
+
+<BaseLayout description={siteConfig.description}>
+  <article class="prose">
+    <div class="publications">
+      <Pubs />
+    </div>
+  </article>
+</BaseLayout>

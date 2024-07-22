@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import { type CollectionPosts } from '@/types'
 import { getPosts } from '@/utils/posts'
+import { sortByDate } from '../../utils/sortByDate.js'
 
 export async function getStaticPaths() {
   const posts = await getPosts()
@@ -18,7 +19,8 @@ export async function getStaticPaths() {
 type Props = { post: CollectionPosts }
 
 const { post } = Astro.props
-const { title, image, description, date, duration, tag } = post.data
+const { title, image, description, date, duration, tag, venue, location } =
+  post.data
 
 const { Content } = await post.render()
 
@@ -32,6 +34,8 @@ function getDate(date: string) {
     <h1>{title}</h1>
     <p op-50>
       {date && <time datetime={getDate(date)}>{date.split(',')}</time>}
+      {venue && <span>· {venue}</span>}
+      {location && <span>· {location}</span>}
       {duration && <span>· {duration}</span>}
       {tag && <span>· {tag}</span>}
     </p>

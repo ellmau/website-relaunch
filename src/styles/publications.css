@@ -1,0 +1,19 @@
+div {
+  list-style-type: none;
+  counter-reset: css-counter 0;
+}
+
+div p:not(:last-of-type) {
+  counter-increment: css-counter 1; /* Increase the counter by 1. */
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+div p:before {
+  content: '[' counter(css-counter) ']'; /* Apply counter before children's content. */
+}
+
+div p:last-of-type::before {
+  content: '';
+}

@@ -12,7 +12,7 @@ import {
 export default defineConfig({
   shortcuts: [
     {
-      'bg-main': 'bg-hex-eef5fc dark:bg-hex-0d1117',
+      'bg-main': 'bg-hex-23d7da20 dark:bg-hex-740aff40',
       'text-main': 'text-hex-555555 dark:text-hex-bbbbbb',
       'text-link': 'text-dark dark:text-white ',
       'border-main': 'border-truegray-300 dark:border-truegray-600',
@@ -50,13 +50,13 @@ export default defineConfig({
     'i-ri-file-list-2-line',
     'i-carbon-campsite',
     'i-simple-icons-github',
-    'i-simple-icons-x',
+    'i-simple-icons-xing',
+    'i-simple-icons-researchgate',
+    'i-simple-icons-mastodon',
     'i-simple-icons-linkedin',
-    'i-simple-icons-instagram',
     'i-simple-icons-youtube',
-    'i-simple-icons-bilibili',
-    'i-simple-icons-zhihu',
-    'i-simple-icons-sinaweibo',
+    'i-simple-icons-mailgun',
+    'i-simple-icons-googlescholar',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
   ],

@@ -65,10 +65,11 @@ function getYear(date: Date | string | number) {
             <i v-if="post.data.recording || post.data.video" text-base i-ri:film-line />
             <time v-if="post.data.date" :datetime="getDate(post.data.date)">{{ post.data.date.split(',')[0] }}</time>
             <span v-if="post.data.duration">· {{ post.data.duration }}</span>
-            <span v-if="post.data.tag">· {{ post.data.tag }}</span>
+            <span v-if="post.data.location">· {{ post.data.location }}</span>
             <span v-if="post.data.lang && post.data.lang.includes('zh')">· 中文</span>
           </div>
         </div>
+        <div v-if="post.data.venue" opacity-50 text-sm> {{ post.data.venue }}<hr></div>
         <div opacity-50 text-sm>{{ post.data.description }}</div>
       </a>
     </li>
