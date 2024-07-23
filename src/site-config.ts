@@ -81,6 +81,10 @@ export const siteConfig = {
         href: '/blog/talks',
       },
       {
+        text: 'Teaching',
+        href: '/blog/teaching',
+      },
+      {
         text: 'Projects',
         href: '/projects',
       },
@@ -103,6 +107,10 @@ export const siteConfig = {
       {
         text: 'Talks',
         href: '/blog/talks',
+      },
+      {
+        text: 'Teaching',
+        href: '/blog/teaching',
       },
     ],
   },
