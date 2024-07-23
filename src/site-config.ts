@@ -120,22 +120,6 @@ export const siteConfig = {
         text: 'Terms, Privacy, and Impressum',
         href: '/impressum',
       },
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
-      },
     ],
   },
 }
