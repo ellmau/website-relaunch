@@ -2,7 +2,7 @@ export const siteConfig = {
   author: 'Stefan Ellmauthaler',
   title: 'Stefan Ellmauthaler',
   subtitle: 'Personal website.',
-  description: 'A Minimal, SEO-friendly portfolio and personal website for Dr. Stefan Ellmauthaler.',
+  description: 'Website for Dr. Stefan Ellmauthaler.',
   image: {
     src: '/stefan_ellmauthaler.jpg',
     alt: 'Stefan Ellmauthaler',
