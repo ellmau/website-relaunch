@@ -6,8 +6,7 @@ import vue from '@astrojs/vue'
 import remarkToc from 'remark-toc'
 
 export default defineConfig({
-  site: 'https://stefan.ellmauthaler.net',
-  base: 'website-relaunch',
+  site: 'https://stefan.ellmauthaler.net/website-relaunch',
   server: {
     port: 1977,
   },
