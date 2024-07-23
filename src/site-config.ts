@@ -44,13 +44,13 @@ export const siteConfig = {
       text: 'Google Scholar',
       href: 'https://scholar.google.com/citations?user=HbZcv2EAAAAJ&hl=en',
       icon: 'i-simple-icons-googlescholar',
-      header: 'i-simple-icons-googlescholar',
+      // header: 'i-simple-icons-googlescholar',
     },
     {
       text: 'E-Mail',
       href: 'mailto:stefan.ellmauthaler@gmail.com',
       icon: 'i-simple-icons-mailgun',
-      header: 'i-simple-icons-mailgun',
+      // header: 'i-simple-icons-mailgun',
     },
   ],
   header: {
