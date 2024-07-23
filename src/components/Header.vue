@@ -47,7 +47,7 @@ onMounted(() => {
     }
 
     if (scroll.value - oldScroll.value > 150) {
-      headerEl.classList.add('header-hide')
+      // headerEl.classList.add('header-hide')
       oldScroll.value = scroll.value
     }
 

@@ -21,7 +21,7 @@ defineProps<{
       <a flex items-center target="_blank" :href="project.href" :aria-label="project.text">
         <div ml-2 mr-4 pt-2>
           <i v-if="!project.image" text-4xl inline-block :class="project.icon || 'i-carbon-unknown'" />
-          <img v-if="project.image" :src="project.image" style="width:198px" text-4xl>
+          <img v-if="project.image && project.alt" :src="project.image" :alt="project.alt" style="width:198px" text-4xl>
         </div>
         <div font-normal lh-tight>
           <div text-lg hover:text-main>{{ project.text }}</div>

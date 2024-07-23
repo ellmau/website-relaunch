@@ -55,7 +55,7 @@ export const siteConfig = {
   ],
   header: {
     logo: {
-      src: '/logo.png',
+      src: '/logo.svg',
       alt: 'Logo',
     },
     navLinks: [
@@ -116,6 +116,10 @@ export const siteConfig = {
   },
   footer: {
     navLinks: [
+      {
+        text: 'Terms, Privacy, and Impressum',
+        href: '/impressum',
+      },
       {
         text: 'Posts Props',
         href: '/posts-props',

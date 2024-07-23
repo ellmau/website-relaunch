@@ -8,6 +8,7 @@ export const projectData: ProjectData = [
         text: 'ScaDS.AI',
         description: 'Center for scalable data analytics and artificial intelligence. Located in Leipzig and Dresden it is one of the five new AI centers in Germany funded under the feder goverment\'s AI strategy.',
         image: 'https://scads.ai/wp-content/uploads/cropped-Favicon-192x192.png',
+        alt: 'Favicon of scads.ai.',
         href: 'https://scads.ai',
       },
       {
