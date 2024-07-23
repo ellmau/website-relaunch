@@ -68,22 +68,22 @@ export const siteConfig = {
         text: 'Publications',
         href: '/publications',
       },
+      // {
+      //   text: 'Blog',
+      //   href: '/blog',
+      // },
+      // {
+      //   text: 'Notes',
+      //   href: '/blog/notes',
+      // },
       {
-        text: 'Blog',
-        href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
+        text: 'Talks & Courses',
         href: '/blog/talks',
       },
-      {
-        text: 'Teaching',
-        href: '/blog/teaching',
-      },
+      // {
+      //   text: 'Teaching',
+      //   href: '/blog/teaching',
+      // },
       {
         text: 'Projects',
         href: '/projects',
@@ -96,14 +96,14 @@ export const siteConfig = {
   },
   page: {
     blogLinks: [
-      {
-        text: 'Blog',
-        href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
+      // {
+      //   text: 'Blog',
+      //   href: '/blog',
+      // },
+      // {
+      //   text: 'Notes',
+      //   href: '/blog/notes',
+      // },
       {
         text: 'Talks',
         href: '/blog/talks',

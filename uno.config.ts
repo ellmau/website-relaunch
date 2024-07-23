@@ -57,7 +57,11 @@ export default defineConfig({
     'i-simple-icons-youtube',
     'i-simple-icons-mailgun',
     'i-simple-icons-googlescholar',
+    'i-simple-icons-nixos',
+    'i-simple-icons-astro',
+    'i-simple-icons-knowledgebase',
     'i-ri-github-line',
     'i-ri-twitter-x-line',
+    'i-carbon-hybrid-networking-alt',
   ],
 })

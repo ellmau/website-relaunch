@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import UnoCSS from 'unocss/astro'
 import vue from '@astrojs/vue'
+import remarkToc from 'remark-toc'
 
 export default defineConfig({
   site: 'https://localhost/',
@@ -18,6 +19,7 @@ export default defineConfig({
     vue(),
   ],
   markdown: {
+    remarkPlugins: [remarkToc],
     shikiConfig: {
       themes: {
         light: 'github-light-default',

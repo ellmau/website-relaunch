@@ -9,8 +9,7 @@ location: "Leipzig, Germany"
 description: "Summary of my experience with MSc students at Leipzig University"
 ---
 
-{% include toc_inline %}
-
+### Table of Content
 Knowledge Representation
 ======
 This winter term module consists of a lecture, a seminar, and a practical course
