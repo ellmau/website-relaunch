@@ -48,7 +48,7 @@ export const siteConfig = {
     },
     {
       text: 'E-Mail',
-      href: 'mailto:stefan.ellmauthaler@gmail.com',
+      href: 'mailto:stefan@ellmauthaler.net',
       icon: 'i-simple-icons-mailgun',
       // header: 'i-simple-icons-mailgun',
     },
